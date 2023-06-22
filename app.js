@@ -35,12 +35,8 @@ app.post('/', (req, res) => {
       res.send();
   })
 })
-
-  console.log(req.body.cityName);
+console.log(req.body.cityName);
 })
-
-
-
 
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
